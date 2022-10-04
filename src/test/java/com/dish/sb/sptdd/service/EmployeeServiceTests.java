@@ -59,7 +59,7 @@ public class EmployeeServiceTests {
 
         List<Employee> lstEmp = employeeService.getAllEmployee();
 
-        Assertions.assertThat(lstEmp.size()).isEqualTo(3);
+        Assertions.assertThat(lstEmp.size()).isEqualTo(2);
 
     }
 }
